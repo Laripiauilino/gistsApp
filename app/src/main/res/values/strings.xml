@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Gists App</string>
+    <string name="favoritesTab">Favoritos</string>
+    <string name="allMoviesTab">Tod os filmes</string>
+    <string name="movieSearch">Pesquisar por um filme...</string>
+    <string name="searchMode">Modo pesquisa</string>
+    <string name="backToHome">Voltar ao início</string>
+    <string name="movieNotFound">Esse filme não existe</string>
+    <string name="NotFoundDetails">Não conseguimos encontrar o filme que você procura. Por favor, refaça sua busca.</string>
+    <string name="evaluate">Avaliação dos usuários</string>
+    <string name="systemFailed">O sistema falhou</string>
+    <string name="systemFailedDetails">"Por algum motivo, não foi possível processar com essa solicitação. Por favor, tente novamente.</string>
+    <string name="tryAgain">Tentar novamente</string>
+
+
+
+    <string name="synopsis">Sinopse</string>
+    <string name="cast">Elenco</string>
+    <string name="movieTitle">Movie title</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

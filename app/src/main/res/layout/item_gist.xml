@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/crdGist"
+    android:layout_width="360dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center_horizontal"
+    android:foreground="?selectableItemBackground"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:focusable="true"
+    android:clickable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgGistPicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            android:scaleType="fitStart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtUserName"
+            style="@style/gistTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxWidth="185dp"
+            android:maxLines="1"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toStartOf="@+id/btnFavorite"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/imgGistPicture"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="User name" />
+
+        <ImageButton
+            android:id="@+id/btnFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/sl_favorite" />
+
+        <TextView
+            android:id="@+id/txtFileType"
+            style="@style/details"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:maxWidth="185dp"
+            android:maxLines="1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btnFavorite"
+            app:layout_constraintStart_toEndOf="@+id/imgGistPicture"
+            app:layout_constraintTop_toBottomOf="@id/txtUserName"
+            tools:text="File type" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
+
+
+

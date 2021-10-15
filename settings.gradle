@@ -1,0 +1,2 @@
+rootProject.name = "gistsApp"
+include ':app'
